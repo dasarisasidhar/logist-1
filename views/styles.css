@@ -1,0 +1,76 @@
+#logo {
+    background-color: black;
+    border-radius: 7px;
+    padding: 4px;
+}
+
+#shipper {
+    color: white;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.btn-outline-success {
+    margin-right: 7px;
+}
+
+.jumbotron {
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/package.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+
+    color: coral
+}
+
+.lead {
+    color: white
+}
+
+.container {
+    text-align: center
+}
+
+.btn-light {
+    margin: 14px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+#user-icon {
+  vertical-align: middle;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+#user-name {
+    margin:15px 5px 0 0;
+    color: coral;
+}
+
+#user-name:hover {
+    text-decoration: underline;
+}
+
+#login-form {
+    width: 400px;
+    height: auto;
+    border-style:groove;
+    padding: 10px;
+    margin: 100px auto auto auto;
+}
+
+#signup-form {
+    width: 400px;
+    height: auto;
+    border-style:groove;
+    padding: 10px;
+    margin: 100px auto auto auto;
+}
