@@ -1,0 +1,47 @@
+<%- include('partials/header') %>
+
+<div>
+    <div id="ongoing-route"> 
+
+    </div>
+
+    <button type="button" class="btn btn-outline-success my-2 my-sm-0" data-toggle="modal" data-target="#ModalCenter">
+    + Add Route
+    </button>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="ModalCenter" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true" >
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+          <div class="modal-content">
+              
+              <div class="modal-header">
+                  <h5 class="modal-title" id="ModalCenterLogin">Add Route</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+              </div>
+              
+              <div class="modal-body">
+                  
+                <form>
+                    <div class="form-group">
+                      <label for="email">Email address</label>
+                      <input type="email" class="form-control" id="loginemail" aria-describedby="emailHelp" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="password">Password</label>
+                      <input type="password" class="form-control" id="loginpassword" required>
+                    </div>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                    </div>
+                    <input type="button" class="btn btn-primary" id="loginbutton" value="login">
+                  </form>
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+</div>
